@@ -1,0 +1,22 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+   "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagaPraveen317/ChatApplication.git"
+  },
+  "author": "Naga Praveen Kumar Kolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagaPraveen317/ChatApplication/issues"
+  },
+  "homepage": "https://github.com/nagaPraveen317/ChatApplication#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
