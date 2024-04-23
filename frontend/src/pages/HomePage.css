@@ -1,0 +1,87 @@
+.home{
+    
+        padding: 0;
+        margin: 0;
+         top: 0;
+        left: 0;
+         width: 100%;
+        height: 100%;
+        background: url('C:\ChatApplication\frontend\public\backimage.jpg');
+        background-size: cover;
+        position:fixed
+}
+
+.top{
+    color: black;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.865);;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: 500;
+   
+    font-size: xx-large;
+    padding: 2%;
+    border-radius: 2px;
+}
+.bottom{
+    background-color: rgba(255, 255, 255, 0.865);
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ 
+  
+}
+.btn1{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+   
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 15%;
+   padding-right: 15%;
+border-radius: 25px;
+   margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+   
+}
+.btn2 {
+    display: flex;
+        flex-direction: column;
+    font-weight: bold;
+    font-weight: bold;
+        
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-radius: 25px;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+       
+}
+.btn1:hover{
+    background-color: aqua;
+}
+.btn2:hover {
+    background-color: aqua;
+}
+.usercontent{
+    background-color: rgba(255, 255, 255, 0.865);
+      
+        margin-left: 35%;
+        margin-right: 35%;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+}

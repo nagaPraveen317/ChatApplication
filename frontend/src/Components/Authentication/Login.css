@@ -1,0 +1,43 @@
+label{
+    margin: 2%;
+    
+   
+}
+input{
+    width: 80%;
+    padding-left: 2%;
+    border-radius: 2px;
+    padding: 1%;
+    display: block;
+        margin: 1% auto;
+   
+}
+.Submit{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 123, 255);
+    cursor: pointer;
+    
+    align-items: center;
+
+}
+.Submit:hover{
+    background-color: blue;
+   
+}
+.guest{
+    background-color: rgba(255, 0, 0, 0.632);
+    color: white;
+    display: block;
+    margin: 0% auto;
+    width: 80%;
+        padding-left: 2%;
+        border-radius: 2px;
+        padding: 1%;
+        
+        font-weight: bold;
+}
+
+.guest:hover{
+    background-color: red;
+}

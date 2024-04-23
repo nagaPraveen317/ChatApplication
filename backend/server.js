@@ -1,7 +1,9 @@
 const express=require('express')
 const {chats}=require('./data')
 const app=express()
-app.get('/',(req,res)=>{
+const dotenv=require("dotenv")
+dotenv.config()
+app.get('/api/chats',(req,res)=>{
     //res.send("This is how api runs at the server")
     console.log(req)
     res.send(chats)
@@ -21,4 +23,6 @@ app.get('/api/chats/:id',(req,res)=>{
     })
     res.send(singlechat)
 })
-app.listen(5000,console.log("server is started")) 
+const PORT=process.env.PORT
+console.log("Value of port thorugh env variable: ",process.env.PORT)
+app.listen(PORT,console.log("server is started")) 
